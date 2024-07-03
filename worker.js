@@ -1,7 +1,6 @@
 /* eslint no-console: off */
 import Queue from 'bull';
 import { ObjectId } from 'mongodb';
-import generateThumbnail from './utils/thumbnails';
 import UsersCollection from './utils/users';
 import FilesCollection from './utils/files';
 
